@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" >
+        <!-- <style>
+        </style> -->
+        </head>
+        <body>
+
+        <div class="box" style="margin-top: 40px;">
+        <br>
+        <li style="font-size: 50px; padding-top: 0px; color: white; list-style-type: none;" class="center"> Event Search</li>
+        <hr size="3" width="670px" color="white" class="center" >
+        <form name="myForm" action="" method="GET">
+        <div style="margin-left: 20px;">
+            <li style="padding-top: 10px; list-style-type: none;" class="color_f" style="margin:20px; text-align: left; border-radius: 8px; width: 660px; height:35px; "> Keyword<sup class="star">*</sup></li>
+              <input type="text"  class="ip_boxes" id="keyword" name="keyword" style="border-radius:10px; width:660px; height: 35px; padding-bottom: 0;" class="center" required title="Please fill out this field">
+        </div>
+
+        <table  id="form_table" style=" margin-left: 20px; width: 700px; margin-top: 0; padding: 0;">
+        <tr>
+            <td>
+                <label for="radius" class="color_f ip_boxes" style="color: #9cc9e5;font-size: 15px;font-family: Arial, Helvetica, sans-serif; padding: 10px;">Distance(miles)</label><br>
+	  	        <input type="number" id="radius" placeholder="10" class="ip_boxes" name="radius" style="height:39px; width:200px; -webkit-outer-spin-button">
+            </td>
+
+            <td>
+                <label for="classificationName" class="color_f ip_boxes" style="color:#9cc9e5;font-size: 15px;font-family: Arial, Helvetica, sans-serif; padding: 10px;" >Category<sup class="star">*</sup></label><br>
+                <select id="classificationName" name="classificationName" class="dropdown" style="height:43px; width:300px;"required>
+                <option color="white" value="Default" >Default</option>
+                <option color="white" value="Music">Music</option>
+                <option color="white" value="Sports">Sports</option>
+                <option color="white" value="Arts & Theatre">Arts & Theatre</option>
+                <option color="white" value="Film">Film</option>
+                <option color="white" value="Miscellaneous">Miscellaneous</option>
+                </select>
+                <br><br>
+
+            </td>
+        </tr>
+<br><br>
+        
+        <tr>
+        </tr>
+        </table>
+        <br>
+        <div style="margin-left: 20px;">
+            <label for="location" class="color_f" >Location<sup class="star">*</sup></label>
+        
+	  	<input type="checkbox" id="checkbox" class="color_f" onchange="hide_loc(this) "><label class="color_f">Auto-detect location</label><br>
+        <div id="loc_box">
+  		<input type="text" id="location" class="ip_boxes" name="location" style="border-radius:10px; width:660px; height: 35px;" required title="Please fill out this field"><br><br>
+        </div>
+        </div>
+        <br>
+
+        <input id= "search_btn" type="button" name="button" value="SEARCH" class="light" onclick="onSubmit(this.form); return false;" style="margin-left: 20px;">
+		<button class="clear_button" onclick="document.getElementById('location').value = ''; document.getElementById('keyword').value = ''; document.getElementById('radius').value = ''; document.getElementById('checkbox').checked=false; document.getElementById('loc_box').style.display='block'; document.getElementById('headers').innerHTML=''; document.getElementById('details').innerHTML=''; document.getElementById('event_info').innerHTML=''; document.getElementById('venue_label').innerHTML=''; document.getElementById('v_card').innerHTML='';">CLEAR</button>
+
+            
+        </div>
+        </form>
+
+        <table id="display_table" style="margin:auto; margin-top:100px; color: black; border: 5px; padding-bottom: 20px;" border="20">
+            <thead id="headers">
+                <!-- <th>Date</th>
+                <th>Icon</th>
+                <th>Event</th>
+                <th>Genre</th>
+                <th>Venue</th> -->
+            </thead>
+
+            <tbody id="details" style="padding:20px;">
+
+            </tbody>
+        </table>
+
+        <div id="event_info">   
+
+        </div>
+        <br>
+
+        <div id="venue_label" style="font-family: Arial, Helvetica, sans-serif; text-align: center;"> 
+            
+        </div>
+
+        <div id="v_card">
+
+        </div>
+    <script async src="./myjs.js" defer>            
+         </script>
+
+    
+    </body>
+</html>

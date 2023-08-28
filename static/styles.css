@@ -1,0 +1,188 @@
+body {
+            
+    /* background: url('/Users/purvaingle/Documents/python-docs-samples/appengine/standard_python3/hello_world/static') no-repeat center center fixed; */
+    background-image: url('background.jpg');
+    background-color: bisque;
+    background-size: cover; 
+    margin: 0; 
+    padding: 0;
+    background-attachment: fixed;
+    }
+    
+    #form_table{
+    /* width:700px;
+    height: 250px; */
+    width: 700px!important;
+    }
+    
+    .col1{
+        position:relative;
+        width: 200px;
+    }
+    
+    #anch:hover{
+        color:#556da7;
+    }
+    
+    #maps:hover{
+        color:#556da7;
+    }
+    
+    .star{
+    color:red;
+    font-size: 15px;
+    }
+    
+    .venue_td{
+        margin:auto;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    
+    /* td{
+    width:300px;
+    } */
+    
+    #display_table{
+    /* display:none; */
+    align:center;
+    align-self: center;
+    margin: auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-width: 5px;
+    width:1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    #td_display{
+    padding: 10px;
+    text-align: center;
+    }
+    
+    .icon{
+    width: 50px;
+    height:50px;
+    
+    }
+    
+    
+    /* CREDITS: for the backdrop filter referred to : https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
+    .box {
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 480px;
+    width: 700px;
+    background-color:rgba(255, 255, 255, 0.2); 
+    -webkit-backdrop-filter: blur(5px);  
+    backdrop-filter: blur(20px);
+    padding: 1px;
+    margin: auto;
+    /* align-cont */
+    }
+    
+    .venue_box{
+    
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 380px;
+    width: 700px;
+    background-color:white;
+    color:black;
+    padding: 1px;
+    margin: auto;
+    
+    }
+    
+    .venue_box_border{
+        border-radius: 20px;
+        border-width: 5px;
+        width: 675px;
+        height: 355px;
+        border: 2px solid black;        
+        margin: auto; 
+        margin-top: 10px;
+        margin-bottom: auto;
+    }
+    
+    .color_f{
+    color: #9cc9e5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    }
+    
+    #search_btn{
+    display:inline-block;
+    background-color:#ec742e;
+    width:120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    overflow:hidden;
+    }
+    
+    .clear_button{
+    display:inline-block;
+    background-color: #556da7;
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+    }
+    
+    #search_btn:hover{background:rgba(250, 173, 96, 0.989);}
+    .clear_button:hover{background:rgba(123, 150, 211, 0.989);}
+    
+    .ip_boxes{
+    background-color:transparent;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-radius:8px; 
+    height: 35px; 
+    color:white;
+    /* margin-left: 12px; */
+    }
+    
+    .dropdown{
+    background-color:transparent;
+    color:white!important;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-radius:8px; 
+    height: 41px; 
+    
+    }
+    
+    .center {
+    text-align: center;
+    margin: auto;
+    }
+    
+    #boxElements{
+    font-family: "Times New Roman", Times, serif;
+    margin:auto;
+    }
+    
+    
+    .status_div{
+        width:45px;
+        height:18px;
+        /* background-color:black; */
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
