@@ -1,6 +1,6 @@
 # An-Event-Search-Website-using-the-Ticketmaster-API-implemented-on-Google-Cloud-App-Engine
 
-## Technologies used: Python, Flask, JSON, the Ticketmaster API, Google API, ipinfo.io API, HTML, CSS, JavaScript, DOM, JSON
+## Technologies used: Python, Flask, JSON, the Ticketmaster API, Google API, ipinfo.io API, HTML, CSS, JavaScript, DOM, JSON. 
 
 
 Created a webpage that allows you to search for event information using the Ticketmaster API, and the results will be displayed in a tabular format. The page will also provide event and venue details.
