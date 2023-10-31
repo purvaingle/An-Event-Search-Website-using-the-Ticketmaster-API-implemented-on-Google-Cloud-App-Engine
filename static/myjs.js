@@ -3,7 +3,7 @@ var ip_latlong;
 var locArr;
 var api_resp;
 var obj_event_data; 
-const API_KEY = "AIzaSyAsUT6mL4V3D2SQDX5ltEWbuh2C5g0pph4";
+const API_KEY = "";
     // const DOMAIN_URL = "http://127.0.0.1:8080/";
     const DOMAIN_URL = "https://newproj9527.wl.r.appspot.com/"
     var dict_segmentID={}
